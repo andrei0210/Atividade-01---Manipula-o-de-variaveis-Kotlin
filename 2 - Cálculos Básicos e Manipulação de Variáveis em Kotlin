@@ -1,0 +1,22 @@
+fun main() {
+    // 1. Criação de Variáveis
+    var nome: String = "Andrei Jose" 
+    val idade: Int = 19 
+    var salarioBrutoMensal: Double = 3500.0 
+    val mesesTrabalhados: Int = 12 
+    var quantidadeProdutosComprados: Int = 7
+   
+    val salarioAnualBruto = salarioBrutoMensal * mesesTrabalhados 
+    val desconto = 5000.0 
+    val salarioAnualLiquido = salarioAnualBruto - desconto 
+    val mensagem = "Nome: $nome | Salário Anual Líquido: R$ $salarioAnualLiquido" 
+
+    println("Nome: $nome")
+    println("Idade: $idade anos")
+    println("Salário Bruto Mensal: R$ $salarioBrutoMensal")
+    println("Meses Trabalhados: $mesesTrabalhados")
+    println("Quantidade de Produtos Comprados: $quantidadeProdutosComprados")
+    println("Salário Anual Bruto: R$ $salarioAnualBruto")
+    println("Salário Anual Líquido: R$ $salarioAnualLiquido")
+    println(mensagem)
+}
