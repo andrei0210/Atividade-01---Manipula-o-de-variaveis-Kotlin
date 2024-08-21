@@ -1,0 +1,21 @@
+fun main() {
+    // 1. Criação de Variáveis
+    val idade: Int = 19
+    val altura: Double = 1.81
+    val nome: String = "Andrei"
+    val estudante: Boolean = true 
+
+
+    
+    val somaIdades = idade + 30 
+    val alturaDobrada = altura * 2 
+    val saudacao = "Olá, $nome!" 
+
+    println("Idade: $idade anos")
+    println("Altura: $altura metros")
+    println("Nome: $nome")
+    println("É estudante? ${if (estudante) "Sim" else "Não"}")
+    println("Soma de idades: $somaIdades")
+    println("Altura dobrada: $alturaDobrada metros")
+    println(saudacao)
+}
